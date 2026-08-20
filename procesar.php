@@ -37,7 +37,7 @@ include 'db.php';
                 ]);
 
                 echo "<h2 style='color: #27ae60;'>¡Pedido registrado con éxito!</h2>";
-                echo "<br><a href='index.php' class='btn'>Hacer otro pedido</a>";
+                echo "<br><a href='index.php' class='btn'>Regresar</a>";
             } catch (PDOException $e) {
                 echo "<h2 style='color: #e74c3c;'>Error al guardar el pedido:</h2>";
                 echo "<p>" . $e->getMessage() . "</p>";
